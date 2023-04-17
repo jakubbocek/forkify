@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --no-minify --out-dir ./dist"
+  },
+  "author": "Jakub",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.30.0",
+    "fractional": "^1.0.0",
+    "img": "^3.0.3",
+    "parcel-bundler": "^1.12.5",
+    "regenerator-runtime": "^0.13.11"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3"
+  }
+}
